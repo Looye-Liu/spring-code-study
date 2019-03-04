@@ -7,7 +7,21 @@ package com.study.spring.test;
  * @date 2019/3/4
  */
 public class HelloWorldService {
-    public void helloWorld(){
+    private String text;
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public void helloWorld() {
         System.out.println("hello world");
+    }
+
+    public void sayWhat() {
+        System.out.println(this.text);
     }
 }
