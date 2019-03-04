@@ -1,4 +1,4 @@
-package com.stude.spring.test;
+package com.study.spring.test;
 
 import com.study.spring.bean.BeanDefinition;
 import com.study.spring.bean.factory.AutowireCapableBeanFactory;
@@ -14,7 +14,7 @@ public class BeanTest {
     @Test
     public void test1() {
         BeanDefinition beanDefinition = new BeanDefinition();
-        beanDefinition.setBeanName("com.stude.spring.test.HelloWorldService");
+        beanDefinition.setBeanName("com.study.spring.test.HelloWorldService");
 
         AutowireCapableBeanFactory autowireCapableBeanFactory = new AutowireCapableBeanFactory();
         autowireCapableBeanFactory.registerBeanDefinition("helloWorldService", beanDefinition);

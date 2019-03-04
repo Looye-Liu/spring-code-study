@@ -26,5 +26,5 @@ public abstract class AbstractBeanFactory implements BeanFactory {
         beanDefinitionMap.put(name, beanDefinition);
     }
 
-    public abstract Object initBean(BeanDefinition beanDefinition);
+    protected abstract Object initBean(BeanDefinition beanDefinition);
 }

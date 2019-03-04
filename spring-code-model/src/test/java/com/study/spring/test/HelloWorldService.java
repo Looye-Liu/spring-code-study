@@ -1,4 +1,4 @@
-package com.stude.spring.test;
+package com.study.spring.test;
 
 /**
  * Created by looye on 2019/3/4.
