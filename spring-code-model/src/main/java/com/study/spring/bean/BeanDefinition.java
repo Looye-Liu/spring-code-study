@@ -10,7 +10,7 @@ public class BeanDefinition {
     private Object bean;
     private String beanName;
     private Class beanClass;
-    private PropertyValues propertyValues;
+    private PropertyValues propertyValues = new PropertyValues();
 
     public Object getBean() {
         return bean;
