@@ -10,6 +10,12 @@
 
     <bean name="helloWorldService" class="com.study.spring.test.HelloWorldService">
         <property name="text" value="Hello World!"></property>
+        <property name="refrenceService" ref="refHelloWorldService"></property>
+    </bean>
+
+    <bean name="refHelloWorldService" class="com.study.spring.test.HelloRefrenceService">
+        <property name="refrence" value="Refrence Hello World!"></property>
+        <property name="helloWorldService" ref="helloWorldService"></property>
     </bean>
 
 </beans>

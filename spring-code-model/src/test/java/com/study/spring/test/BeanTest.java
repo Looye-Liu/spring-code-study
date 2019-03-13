@@ -3,6 +3,7 @@ package com.study.spring.test;
 import com.study.spring.bean.BeanDefinition;
 import com.study.spring.bean.PropertyValue;
 import com.study.spring.bean.PropertyValues;
+import com.study.spring.bean.factory.AbstractBeanFactory;
 import com.study.spring.bean.factory.AutowireCapableBeanFactory;
 import com.study.spring.bean.factory.BeanFactory;
 import com.study.spring.bean.io.ResourceLoad;
@@ -38,17 +39,23 @@ public class BeanTest {
 
     @Test
     public void test2() throws Exception {
+        // 1.获取配置信息
         XmlBeanDefinitionReader xmlBeanDefinitionReader = new XmlBeanDefinitionReader(new ResourceLoad());
         xmlBeanDefinitionReader.loadBeanDefinition("test1.xml");
 
         // 2.初始化BeanFactory并注册bean
-        BeanFactory beanFactory = new AutowireCapableBeanFactory();
+        AbstractBeanFactory beanFactory = new AutowireCapableBeanFactory();
         for (Map.Entry<String, BeanDefinition> beanDefinitionEntry : xmlBeanDefinitionReader.getRegistry().entrySet()) {
             beanFactory.registerBeanDefinition(beanDefinitionEntry.getKey(), beanDefinitionEntry.getValue());
         }
+        // 3.初始化bean
+        beanFactory.preInstantiateSingletons();
 
         // 3.获取bean
         HelloWorldService helloWorldService = (HelloWorldService) beanFactory.getBean("helloWorldService");
         helloWorldService.helloWorld();
+
+        HelloRefrenceService refrenceService = (HelloRefrenceService)beanFactory.getBean("refHelloWorldService");
+        refrenceService.printHello();
     }
 }

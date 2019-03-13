@@ -7,6 +7,9 @@ package com.study.spring.test;
  * @date 2019/3/4
  */
 public class HelloWorldService {
+
+    private HelloRefrenceService refrenceService;
+
     private String text;
 
     public String getText() {
@@ -23,5 +26,14 @@ public class HelloWorldService {
 
     public void sayWhat() {
         System.out.println(this.text);
+    }
+
+    public HelloRefrenceService getRefrenceService() {
+        return refrenceService;
+    }
+
+    public HelloWorldService setRefrenceService(HelloRefrenceService refrenceService) {
+        this.refrenceService = refrenceService;
+        return this;
     }
 }
