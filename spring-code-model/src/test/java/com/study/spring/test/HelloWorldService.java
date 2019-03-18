@@ -1,39 +1,13 @@
 package com.study.spring.test;
 
 /**
- * Created by looye on 2019/3/4.
+ * Created by looye on 2019/3/18.
  *
  * @author looye
- * @date 2019/3/4
+ * @date 2019/3/18
  */
-public class HelloWorldService {
+public interface HelloWorldService {
+    void helloWorld();
 
-    private HelloRefrenceService refrenceService;
-
-    private String text;
-
-    public String getText() {
-        return text;
-    }
-
-    public void setText(String text) {
-        this.text = text;
-    }
-
-    public void helloWorld() {
-        System.out.println("hello world");
-    }
-
-    public void sayWhat() {
-        System.out.println(this.text);
-    }
-
-    public HelloRefrenceService getRefrenceService() {
-        return refrenceService;
-    }
-
-    public HelloWorldService setRefrenceService(HelloRefrenceService refrenceService) {
-        this.refrenceService = refrenceService;
-        return this;
-    }
+    void sayWhat();
 }

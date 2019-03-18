@@ -5,7 +5,6 @@ import com.study.spring.bean.PropertyValue;
 import com.study.spring.bean.PropertyValues;
 import com.study.spring.bean.factory.AbstractBeanFactory;
 import com.study.spring.bean.factory.AutowireCapableBeanFactory;
-import com.study.spring.bean.factory.BeanFactory;
 import com.study.spring.bean.io.ResourceLoad;
 import com.study.spring.bean.xml.XmlBeanDefinitionReader;
 import org.junit.Test;
