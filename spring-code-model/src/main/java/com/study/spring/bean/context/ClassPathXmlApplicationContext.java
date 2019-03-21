@@ -1,10 +1,10 @@
 package com.study.spring.bean.context;
 
-import com.study.spring.bean.BeanDefinition;
-import com.study.spring.bean.factory.AbstractBeanFactory;
-import com.study.spring.bean.factory.AutowireCapableBeanFactory;
-import com.study.spring.bean.io.ResourceLoad;
-import com.study.spring.bean.xml.XmlBeanDefinitionReader;
+import com.study.spring.bean.beans.BeanDefinition;
+import com.study.spring.bean.beans.factory.AbstractBeanFactory;
+import com.study.spring.bean.beans.factory.AutowireCapableBeanFactory;
+import com.study.spring.bean.beans.io.ResourceLoad;
+import com.study.spring.bean.beans.xml.XmlBeanDefinitionReader;
 
 import java.util.Map;
 

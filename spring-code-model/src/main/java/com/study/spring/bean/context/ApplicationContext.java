@@ -1,6 +1,6 @@
 package com.study.spring.bean.context;
 
-import com.study.spring.bean.factory.BeanFactory;
+import com.study.spring.bean.beans.factory.BeanFactory;
 
 /**
  * Created by looye on 2019/3/14.

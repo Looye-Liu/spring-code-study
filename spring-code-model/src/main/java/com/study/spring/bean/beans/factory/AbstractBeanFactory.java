@@ -1,9 +1,8 @@
-package com.study.spring.bean.factory;
+package com.study.spring.bean.beans.factory;
 
-import com.study.spring.bean.BeanDefinition;
+import com.study.spring.bean.beans.BeanDefinition;
 
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -15,6 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @date 2019/3/4
  */
 public abstract class AbstractBeanFactory implements BeanFactory {
+
     private Map<String, BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
     private Set<String> beanDefinitionNames = new HashSet<String>();
 

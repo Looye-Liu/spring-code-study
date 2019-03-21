@@ -1,4 +1,4 @@
-package com.study.spring.bean.io;
+package com.study.spring.bean.beans.io;
 
 import java.io.InputStream;
 

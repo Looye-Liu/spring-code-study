@@ -1,6 +1,6 @@
-package com.study.spring.bean;
+package com.study.spring.bean.beans;
 
-import com.study.spring.bean.io.ResourceLoad;
+import com.study.spring.bean.beans.io.ResourceLoad;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,8 +1,8 @@
 package com.study.spring.test;
 
-import com.study.spring.bean.BeanDefinition;
-import com.study.spring.bean.io.ResourceLoad;
-import com.study.spring.bean.xml.XmlBeanDefinitionReader;
+import com.study.spring.bean.beans.BeanDefinition;
+import com.study.spring.bean.beans.io.ResourceLoad;
+import com.study.spring.bean.beans.xml.XmlBeanDefinitionReader;
 import org.junit.Test;
 
 import java.util.Map;

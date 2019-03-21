@@ -1,10 +1,10 @@
-package com.study.spring.bean.xml;
+package com.study.spring.bean.beans.xml;
 
-import com.study.spring.bean.AbstractBeanDefinitionReader;
-import com.study.spring.bean.BeanDefinition;
-import com.study.spring.bean.BeanReference;
-import com.study.spring.bean.PropertyValue;
-import com.study.spring.bean.io.ResourceLoad;
+import com.study.spring.bean.beans.AbstractBeanDefinitionReader;
+import com.study.spring.bean.beans.BeanDefinition;
+import com.study.spring.bean.beans.BeanReference;
+import com.study.spring.bean.beans.PropertyValue;
+import com.study.spring.bean.beans.io.ResourceLoad;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;

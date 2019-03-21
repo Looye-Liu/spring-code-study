@@ -1,12 +1,13 @@
 package com.study.spring.test;
 
-import com.study.spring.bean.BeanDefinition;
-import com.study.spring.bean.PropertyValue;
-import com.study.spring.bean.PropertyValues;
-import com.study.spring.bean.factory.AbstractBeanFactory;
-import com.study.spring.bean.factory.AutowireCapableBeanFactory;
-import com.study.spring.bean.io.ResourceLoad;
-import com.study.spring.bean.xml.XmlBeanDefinitionReader;
+import com.study.spring.bean.beans.BeanDefinition;
+import com.study.spring.bean.beans.PropertyValue;
+import com.study.spring.bean.beans.PropertyValues;
+
+import com.study.spring.bean.beans.factory.AbstractBeanFactory;
+import com.study.spring.bean.beans.factory.AutowireCapableBeanFactory;
+import com.study.spring.bean.beans.io.ResourceLoad;
+import com.study.spring.bean.beans.xml.XmlBeanDefinitionReader;
 import org.junit.Test;
 
 import java.util.Map;
@@ -22,14 +23,15 @@ public class BeanTest {
     public void test1() throws Exception {
 
         BeanDefinition beanDefinition = new BeanDefinition();
-        beanDefinition.setBeanName("com.study.spring.test.HelloWorldService");
+        beanDefinition.setBeanName("com.study.spring.test.HelloWorldServiceImpl");
 
         PropertyValues propertyValues = new PropertyValues();
         propertyValues.getPropertyValueList().add(new PropertyValue("text", "哇哈哈"));
         beanDefinition.setPropertyValues(propertyValues);
 
-        AutowireCapableBeanFactory autowireCapableBeanFactory = new AutowireCapableBeanFactory();
+        com.study.spring.bean.beans.factory.AutowireCapableBeanFactory autowireCapableBeanFactory = new AutowireCapableBeanFactory();
         autowireCapableBeanFactory.registerBeanDefinition("helloWorldService", beanDefinition);
+        autowireCapableBeanFactory.preInstantiateSingletons();
 
         HelloWorldService helloWorldService = (HelloWorldService) autowireCapableBeanFactory.getBean("helloWorldService");
         helloWorldService.helloWorld();

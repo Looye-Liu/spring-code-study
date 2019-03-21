@@ -1,4 +1,4 @@
-package com.study.spring.bean;
+package com.study.spring.bean.beans;
 
 /**
  * Created by looye on 2019/3/4.
