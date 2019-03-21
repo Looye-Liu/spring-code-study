@@ -3,7 +3,7 @@ package com.study.spring.bean.context;
 import com.study.spring.bean.beans.BeanDefinition;
 import com.study.spring.bean.beans.factory.AbstractBeanFactory;
 import com.study.spring.bean.beans.factory.AutowireCapableBeanFactory;
-import com.study.spring.bean.beans.io.ResourceLoad;
+import com.study.spring.bean.beans.io.ResourceLoader;
 import com.study.spring.bean.beans.xml.XmlBeanDefinitionReader;
 
 import java.util.Map;
@@ -28,13 +28,11 @@ public class ClassPathXmlApplicationContext extends AbstractApplicationContext {
     }
 
     @Override
-    public void refresh() throws Exception {
-        XmlBeanDefinitionReader xmlBeanDefinitionReader = new XmlBeanDefinitionReader(new ResourceLoad());
-        xmlBeanDefinitionReader.loadBeanDefinition(this.configLocation);
-        Map<String, BeanDefinition> beanDefinitionMap = xmlBeanDefinitionReader.getRegistry();
-        for (Map.Entry<String, BeanDefinition> beanDefinitionEntry : beanDefinitionMap.entrySet()) {
+    protected void loadBeanDefinitions(AbstractBeanFactory beanFactory) throws Exception {
+        XmlBeanDefinitionReader xmlBeanDefinitionReader = new XmlBeanDefinitionReader(new ResourceLoader());
+        xmlBeanDefinitionReader.loadBeanDefinition(configLocation);
+        for (Map.Entry<String, BeanDefinition> beanDefinitionEntry : xmlBeanDefinitionReader.getRegistry().entrySet()) {
             beanFactory.registerBeanDefinition(beanDefinitionEntry.getKey(), beanDefinitionEntry.getValue());
         }
     }
-
 }

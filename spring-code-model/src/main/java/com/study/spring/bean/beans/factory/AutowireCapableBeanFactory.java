@@ -13,18 +13,6 @@ import java.lang.reflect.Field;
  * @date 2019/3/4
  */
 public class AutowireCapableBeanFactory extends AbstractBeanFactory {
-    @Override
-    protected Object doCreateBean(BeanDefinition beanDefinition) throws Exception {
-        Object bean = createBeanInstance(beanDefinition);
-        beanDefinition.setBean(bean);
-        applyProperty(bean, beanDefinition);
-        return bean;
-    }
-
-    protected Object createBeanInstance(BeanDefinition beanDefinition) throws Exception {
-        return beanDefinition.getBeanClass().newInstance();
-    }
-
     /**
      * 设置配置信息
      *
@@ -32,6 +20,7 @@ public class AutowireCapableBeanFactory extends AbstractBeanFactory {
      * @param beanDefinition
      * @throws Exception
      */
+    @Override
     protected void applyProperty(Object bean, BeanDefinition beanDefinition) throws Exception {
         for (PropertyValue propertyValue : beanDefinition.getPropertyValues().getPropertyValueList()) {
             Field field = bean.getClass().getDeclaredField(propertyValue.getName());

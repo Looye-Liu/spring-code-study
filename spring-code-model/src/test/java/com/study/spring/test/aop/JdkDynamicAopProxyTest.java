@@ -1,9 +1,11 @@
-package com.study.spring.test;
+package com.study.spring.test.aop;
 
 import com.study.spring.bean.aop.AdvisedSupport;
 import com.study.spring.bean.aop.JdkDynamicAopProxy;
 import com.study.spring.bean.aop.TargetSource;
 import com.study.spring.bean.context.ClassPathXmlApplicationContext;
+import com.study.spring.test.HelloWorldService;
+import com.study.spring.test.aop.TimerInterceptor;
 import org.junit.Test;
 
 /**
@@ -12,10 +14,10 @@ import org.junit.Test;
  * @author looye
  * @date 2019/3/18
  */
-public class AopTest {
+public class JdkDynamicAopProxyTest {
 
     @Test
-    public void test1() throws Exception {
+    public void testInterceptor() throws Exception {
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("test1.xml");
         HelloWorldService helloWorldService = (HelloWorldService) classPathXmlApplicationContext.getBean("helloWorldService");
         helloWorldService.helloWorld();
@@ -24,11 +26,12 @@ public class AopTest {
         TargetSource targetSource = new TargetSource(helloWorldService, HelloWorldService.class);
         advisedSupport.setTargetSource(targetSource);
 
-        TestInterceptor testInterceptor = new TestInterceptor();
-        advisedSupport.setMethodInterceptor(testInterceptor);
+        TimerInterceptor timerInterceptor = new TimerInterceptor();
+        advisedSupport.setMethodInterceptor(timerInterceptor);
 
         JdkDynamicAopProxy jdkDynamicAopProxy = new JdkDynamicAopProxy(advisedSupport);
         HelloWorldService proxHelloWorldService = (HelloWorldService) jdkDynamicAopProxy.getProxy();
+
         proxHelloWorldService.helloWorld();
     }
 }

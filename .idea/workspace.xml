@@ -2,37 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b72bf0-1ceb-4456-9ebd-9a55abab8e37" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AspectJExpressionPointcut.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/ClassFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/MethodMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/PointCut.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/AspectJExpressionPointcutTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-code-model/target/classes/com/study/spring/bean/BeanDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-code-model/target/classes/com/study/spring/bean/factory/AbstractBeanFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-code-model/target/classes/com/study/spring/bean/factory/AutowireCapableBeanFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-code-model/target/classes/com/study/spring/bean/factory/BeanFactory.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/AbstractBeanDefinitionReader.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/AbstractBeanDefinitionReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/BeanDefinition.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/BeanDefinition.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/BeanReference.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/BeanReference.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/BeandefinitionReader.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/BeandefinitionReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/PropertyValue.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/PropertyValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/PropertyValues.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/PropertyValues.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/factory/AbstractBeanFactory.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/factory/AutowireCapableBeanFactory.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AutowireCapableBeanFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/factory/BeanFactory.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/BeanFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/io/Resource.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/io/Resource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/io/ResourceLoad.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/io/ResourceLoad.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/io/UrlResource.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/io/UrlResource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/xml/XmlBeanDefinitionReader.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/xml/XmlBeanDefinitionReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/target/test-classes/com/study/spring/test/BeanTest.class" afterPath="$PROJECT_DIR$/spring-code-model/target/test-classes/com/study/spring/test/BeanTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/BeanPostProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/BeanInitializeLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/XmlBeanDefinitionReaderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/test/resources/test2.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/XmlTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-code-model/target/test-classes/com/study/spring/test/BeanTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/io/ResourceLoad.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/io/ResourceLoader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/AopTest.java" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/JdkDynamicAopProxyTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/ApplicationTest.java" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/context/ApplicationContextTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/AspectJExpressionPointcutTest.java" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/AspectJExpressionPointcutTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/BeanTest.java" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/BeanFactoryTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/TestInterceptor.java" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/TimerInterceptor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/pom.xml" afterPath="$PROJECT_DIR$/spring-code-model/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/spring-code-model.iml" afterPath="$PROJECT_DIR$/spring-code-model/spring-code-model.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/AbstractBeanDefinitionReader.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/AbstractBeanDefinitionReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AutowireCapableBeanFactory.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AutowireCapableBeanFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/xml/XmlBeanDefinitionReader.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/xml/XmlBeanDefinitionReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/AbstractApplicationContext.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/AbstractApplicationContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ApplicationContext.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ApplicationContext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ClassPathXmlApplicationContext.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ClassPathXmlApplicationContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/BeanTest.java" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/BeanTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/XmlTest.java" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/XmlTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/test/resources/test1.xml" afterPath="$PROJECT_DIR$/spring-code-model/src/test/resources/test1.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-code-model/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,55 +34,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AspectJExpressionPointcut.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AspectJExpressionPointcut.java">
+      <file leaf-file-name="ApplicationContextTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/context/ApplicationContextTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#703#722#0" expanded="true" />
-                <element signature="e#1482#1483#0" expanded="true" />
-                <element signature="e#1532#1533#0" expanded="true" />
-                <element signature="e#2179#2180#0" expanded="true" />
-                <element signature="e#2252#2253#0" expanded="true" />
-                <element signature="e#3113#3114#0" expanded="true" />
-                <element signature="e#3140#3141#0" expanded="true" />
-                <element signature="e#3201#3202#0" expanded="true" />
-                <element signature="e#3228#3229#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PointcutExpressionImpl.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.6.11/aspectjweaver-1.6.11.jar!/org/aspectj/weaver/internal/tools/PointcutExpressionImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
-              <folding>
-                <element signature="e#3352#3353#0" expanded="true" />
-                <element signature="e#3405#3406#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PointcutParser.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.6.11/aspectjweaver-1.6.11.jar!/org/aspectj/weaver/tools/PointcutParser.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AspectJExpressionPointcutTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/AspectJExpressionPointcutTest.java">
+      <file leaf-file-name="ClassPathXmlApplicationContext.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ClassPathXmlApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="58" lean-forward="false" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="210">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractApplicationContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/AbstractApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,58 +69,8 @@
       <file leaf-file-name="AbstractBeanFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutowireCapableBeanFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AutowireCapableBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractApplicationContext.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/AbstractApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassPathXmlApplicationContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ClassPathXmlApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="2131" column="0" lean-forward="false" selection-start-line="2131" selection-start-column="0" selection-end-line="2131" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/ClassFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="195">
+              <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -189,30 +104,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/con/stude/spring/test/HelloWorldService.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/con/stude/spring/test/BeanTest.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/stude/spring/test/HelloWorldService.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/stude/spring/test/BeanTest.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/factory/PropertyValue.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/PropertyVlaues.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/PropertyValues.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/io/Resource.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/io/UrlResource.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/io/ResourceLoad.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/BeandefinitionReader.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/AbstractBeanDefinitionReader.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/XmlTest.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/resources/test1.xml" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/BeanDefinition.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/BeanReference.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/xml/XmlBeanDefinitionReader.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/PropertyValue.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/factory/AutowireCapableBeanFactory.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ApplicationContext.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/factory/BeanFactory.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/AbstractApplicationContext.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/factory/AbstractBeanFactory.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ClassPathXmlApplicationContext.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AopProxy.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/TargetSource.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AdvisedSupport.java" />
@@ -223,11 +121,9 @@
         <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/HelloWorldService.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/HelloWorldServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/ApplicationTest.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/test/resources/test1.xml" />
         <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/AopTest.java" />
         <option value="$PROJECT_DIR$/spring-code-model/pom.xml" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/PropertyValues.java" />
-        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/Testa.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/BeanTest.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/PointCut.java" />
@@ -235,6 +131,30 @@
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/MethodMatcher.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AspectJExpressionPointcut.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/AspectJExpressionPointcutTest.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/io/Test.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/Test1.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/io/ResourceLoaderTest.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/ResourceLoaderTest.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/XmlBeanDefinitionReaderTest.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/context/ApplicationTest.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/BeanTest.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/BeanFactoryTest.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AutowireCapableBeanFactory.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/BeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/xml/XmlBeanDefinitionReader.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/resources/test1.xml" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/TestInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/AopTest.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/AspectJExpressionPointcutTest.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/JdkDynamicAopProxyTest.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/TimerInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ClassPathXmlApplicationContext.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/AbstractApplicationContext.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/resources/test2.xml" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/BeanInitializeLogger.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/BeanInitializeLogger.java" />
+        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/context/ApplicationContextTest.java" />
       </list>
     </option>
   </component>
@@ -276,8 +196,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="815" />
+    <option name="y" value="23" />
+    <option name="width" value="1105" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -347,36 +269,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -504,44 +396,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="aop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -568,13 +422,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33103448" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study.spring.test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-code-model/src/test/resources" />
       <recent name="$PROJECT_DIR$/spring-code-model/src/test" />
       <recent name="$PROJECT_DIR$/spring-code-model/src/main/resources" />
     </key>
@@ -591,19 +448,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AspectJExpressionPointcutTest.test">
-    <configuration default="false" name="BeanTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApplicationContextTest.testPostBeanProcessor">
+    <configuration default="false" name="BeanFactoryTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.study.spring.test.*" />
+          <option name="PATTERN" value="com.study.spring.test.beans.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="spring-code-model" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.study.spring.test" />
-      <option name="MAIN_CLASS_NAME" value="com.study.spring.test.BeanTest" />
+      <option name="PACKAGE_NAME" value="com.study.spring.test.beans" />
+      <option name="MAIN_CLASS_NAME" value="com.study.spring.test.beans.BeanFactoryTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -618,19 +475,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ApplicationTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BeanFactoryTest.testLazy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.study.spring.test.*" />
+          <option name="PATTERN" value="com.study.spring.test.beans.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="spring-code-model" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.study.spring.test" />
-      <option name="MAIN_CLASS_NAME" value="com.study.spring.test.ApplicationTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.study.spring.test.beans" />
+      <option name="MAIN_CLASS_NAME" value="com.study.spring.test.beans.BeanFactoryTest" />
+      <option name="METHOD_NAME" value="testLazy" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -644,19 +501,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="AopTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BeanFactoryTest.testPreInstantiate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.study.spring.test.*" />
+          <option name="PATTERN" value="com.study.spring.test.beans.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="spring-code-model" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.study.spring.test" />
-      <option name="MAIN_CLASS_NAME" value="com.study.spring.test.AopTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.study.spring.test.beans" />
+      <option name="MAIN_CLASS_NAME" value="com.study.spring.test.beans.BeanFactoryTest" />
+      <option name="METHOD_NAME" value="testPreInstantiate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -670,19 +527,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="AspectJExpressionPointcutTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="JdkDynamicAopProxyTest.testInterceptor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.study.spring.test.*" />
+          <option name="PATTERN" value="com.study.spring.test.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="spring-code-model" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.study.spring.test" />
-      <option name="MAIN_CLASS_NAME" value="com.study.spring.test.AspectJExpressionPointcutTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.study.spring.test.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.study.spring.test.aop.JdkDynamicAopProxyTest" />
+      <option name="METHOD_NAME" value="testInterceptor" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -696,19 +553,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="AspectJExpressionPointcutTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ApplicationContextTest.testPostBeanProcessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.study.spring.test.*" />
+          <option name="PATTERN" value="com.study.spring.test.context.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="spring-code-model" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.study.spring.test" />
-      <option name="MAIN_CLASS_NAME" value="com.study.spring.test.AspectJExpressionPointcutTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.study.spring.test.context" />
+      <option name="MAIN_CLASS_NAME" value="com.study.spring.test.context.ApplicationContextTest" />
+      <option name="METHOD_NAME" value="testPostBeanProcessor" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1093,19 +950,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BeanTest.test1" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ApplicationTest.test1" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AopTest.test1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AspectJExpressionPointcutTest.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AspectJExpressionPointcutTest.test2" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BeanFactoryTest.test1" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BeanFactoryTest.testLazy" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BeanFactoryTest.testPreInstantiate" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JdkDynamicAopProxyTest.testInterceptor" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ApplicationContextTest.testPostBeanProcessor" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AspectJExpressionPointcutTest.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AspectJExpressionPointcutTest.test2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AopTest.test1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ApplicationTest.test1" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BeanTest.test1" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ApplicationContextTest.testPostBeanProcessor" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JdkDynamicAopProxyTest.testInterceptor" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BeanFactoryTest.testPreInstantiate" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BeanFactoryTest.testLazy" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BeanFactoryTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -1134,47 +991,48 @@
       <workItem from="1552896416616" duration="5047000" />
       <workItem from="1552996653418" duration="196000" />
       <workItem from="1553048265254" duration="1945000" />
-      <workItem from="1553135568943" duration="5425000" />
+      <workItem from="1553135568943" duration="10240000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AspectJExpressionPointcutTest_test - 2019.03.21 at 14h 35m 41s.xml">
-      <configuration name="AspectJExpressionPointcutTest.test" configurationId="JUnit" />
+    <history-entry file="ApplicationContextTest_testPostBeanProcessor - 2019.03.21 at 16h 34m 46s.xml">
+      <configuration name="ApplicationContextTest.testPostBeanProcessor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AspectJExpressionPointcutTest_test - 2019.03.21 at 14h 36m 09s.xml">
-      <configuration name="AspectJExpressionPointcutTest.test" configurationId="JUnit" />
+    <history-entry file="BeanFactoryTest_test1 - 2019.03.21 at 15h 19m 00s.xml">
+      <configuration name="BeanFactoryTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AspectJExpressionPointcutTest_test - 2019.03.21 at 14h 36m 22s.xml">
-      <configuration name="AspectJExpressionPointcutTest.test" configurationId="JUnit" />
+    <history-entry file="BeanFactoryTest_test1 - 2019.03.21 at 15h 32m 44s.xml">
+      <configuration name="BeanFactoryTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AspectJExpressionPointcutTest_test - 2019.03.21 at 14h 36m 33s.xml">
-      <configuration name="AspectJExpressionPointcutTest.test" configurationId="JUnit" />
+    <history-entry file="BeanFactoryTest_testLazy - 2019.03.21 at 15h 20m 59s.xml">
+      <configuration name="BeanFactoryTest.testLazy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AspectJExpressionPointcutTest_test - 2019.03.21 at 14h 37m 13s.xml">
-      <configuration name="AspectJExpressionPointcutTest.test" configurationId="JUnit" />
+    <history-entry file="BeanFactoryTest_testLazy - 2019.03.21 at 15h 32m 49s.xml">
+      <configuration name="BeanFactoryTest.testLazy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AspectJExpressionPointcutTest_test - 2019.03.21 at 14h 37m 22s.xml">
-      <configuration name="AspectJExpressionPointcutTest.test" configurationId="JUnit" />
+    <history-entry file="BeanFactoryTest_testPreInstantiate - 2019.03.21 at 15h 32m 54s.xml">
+      <configuration name="BeanFactoryTest.testPreInstantiate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AspectJExpressionPointcutTest_test - 2019.03.21 at 14h 37m 31s.xml">
-      <configuration name="AspectJExpressionPointcutTest.test" configurationId="JUnit" />
+    <history-entry file="JdkDynamicAopProxyTest_testInterceptor - 2019.03.21 at 15h 40m 53s.xml">
+      <configuration name="JdkDynamicAopProxyTest.testInterceptor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AspectJExpressionPointcutTest_test - 2019.03.21 at 14h 40m 36s.xml">
-      <configuration name="AspectJExpressionPointcutTest.test" configurationId="JUnit" />
+    <history-entry file="JdkDynamicAopProxyTest_testInterceptor - 2019.03.21 at 15h 41m 39s.xml">
+      <configuration name="JdkDynamicAopProxyTest.testInterceptor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AspectJExpressionPointcutTest_test2 - 2019.03.21 at 14h 40m 16s.xml">
-      <configuration name="AspectJExpressionPointcutTest.test2" configurationId="JUnit" />
+    <history-entry file="JdkDynamicAopProxyTest_testInterceptor - 2019.03.21 at 15h 41m 41s.xml">
+      <configuration name="JdkDynamicAopProxyTest.testInterceptor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AspectJExpressionPointcutTest_test2 - 2019.03.21 at 14h 40m 25s.xml">
-      <configuration name="AspectJExpressionPointcutTest.test2" configurationId="JUnit" />
+    <history-entry file="JdkDynamicAopProxyTest_testInterceptor - 2019.03.21 at 15h 42m 48s.xml">
+      <configuration name="JdkDynamicAopProxyTest.testInterceptor" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35367000" />
+    <option name="totallyTimeSpent" value="40182000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="815" y="23" width="1105" height="1002" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1186,18 +1044,18 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905138" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24110672" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26754385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29020235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3678269" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905138" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905138" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28162056" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28070176" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1214,18 +1072,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/XmlTest.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/BeanTest.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AspectJExpressionPointcut.java</url>
           <line>82</line>
@@ -1245,8 +1091,8 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/AspectJExpressionPointcutTest.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/AspectJExpressionPointcutTest.java</url>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -1260,62 +1106,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/net/URLConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="159" column="22" lean-forward="false" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/xml/XmlBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/io/ResourceLoad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/jdk/internal/org/objectweb/asm/commons/AdviceAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/org/aopalliance/aop/Advice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/org/aopalliance/intercept/Interceptor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1355,14 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/resources/test1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="74" lean-forward="false" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1432,6 +1214,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1463,60 +1246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/BeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#352#353#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/XmlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="71" lean-forward="true" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/BeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/TestInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/ApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/AopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,14 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/HelloWorldServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1633,44 +1354,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/AspectJExpressionPointcutTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/io/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="58" lean-forward="false" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java">
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/XmlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AutowireCapableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="270">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ClassPathXmlApplicationContext.java">
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/BeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/BeanDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#325#326#0" expanded="false" />
+            <element signature="e#352#353#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="375" column="54" lean-forward="true" selection-start-line="375" selection-start-column="54" selection-end-line="375" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/TimerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/XmlBeanDefinitionReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/BeanFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/JdkDynamicAopProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/AspectJExpressionPointcutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/xml/XmlBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/resources/test1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/HelloWorldServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/BeanInitializeLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/context/ApplicationContextTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/AbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="203">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/resources/test2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/context/ClassPathXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding />
         </state>
       </provider>

@@ -4,7 +4,7 @@ import com.study.spring.bean.beans.AbstractBeanDefinitionReader;
 import com.study.spring.bean.beans.BeanDefinition;
 import com.study.spring.bean.beans.BeanReference;
 import com.study.spring.bean.beans.PropertyValue;
-import com.study.spring.bean.beans.io.ResourceLoad;
+import com.study.spring.bean.beans.io.ResourceLoader;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -22,14 +22,14 @@ import java.io.InputStream;
  */
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
-    public XmlBeanDefinitionReader(ResourceLoad resourceLoad) {
-        super(resourceLoad);
+    public XmlBeanDefinitionReader(ResourceLoader resourceLoader) {
+        super(resourceLoader);
     }
 
     @Override
     public void loadBeanDefinition(String location) throws Exception {
-        InputStream inputStream = getResourceLoad().getResource(location).getInputStream();
-        //TODO:解析xml，加载类，初始化配置信息
+        InputStream inputStream = getResourceLoader().getResource(location).getInputStream();
+        //解析xml，加载类，初始化配置信息
         doLoadBeanDefinitions(inputStream);
     }
 
@@ -58,7 +58,7 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
     }
 
     protected void parseBeanDefinition(Element element) {
-        String name = element.getAttribute("name");
+        String name = element.getAttribute("id");
         String className = element.getAttribute("class");
         BeanDefinition beanDefinition = new BeanDefinition();
         beanDefinition.setBeanName(className);

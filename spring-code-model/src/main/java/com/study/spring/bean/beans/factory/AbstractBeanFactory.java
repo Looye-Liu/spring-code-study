@@ -1,10 +1,9 @@
 package com.study.spring.bean.beans.factory;
 
 import com.study.spring.bean.beans.BeanDefinition;
+import com.study.spring.bean.beans.BeanPostProcessor;
 
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -16,7 +15,10 @@ import java.util.concurrent.ConcurrentHashMap;
 public abstract class AbstractBeanFactory implements BeanFactory {
 
     private Map<String, BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
+
     private Set<String> beanDefinitionNames = new HashSet<String>();
+
+    private List<BeanPostProcessor> beanPostProcessors = new ArrayList<BeanPostProcessor>();
 
     @Override
     public Object getBean(String name) throws Exception {
@@ -27,6 +29,7 @@ public abstract class AbstractBeanFactory implements BeanFactory {
         Object bean = beanDefinition.getBean();
         if (null == bean) {
             bean = doCreateBean(beanDefinition);
+            bean = initializeBean(bean, name);
         }
         return bean;
     }
@@ -42,5 +45,43 @@ public abstract class AbstractBeanFactory implements BeanFactory {
         }
     }
 
-    protected abstract Object doCreateBean(BeanDefinition beanDefinition) throws Exception;
+    protected Object doCreateBean(BeanDefinition beanDefinition) throws Exception {
+        Object bean = createBeanInstance(beanDefinition);
+        beanDefinition.setBean(bean);
+        applyProperty(bean, beanDefinition);
+        return bean;
+    }
+
+    protected Object createBeanInstance(BeanDefinition beanDefinition) throws Exception {
+        return beanDefinition.getBeanClass().newInstance();
+    }
+
+    protected Object initializeBean(Object bean, String name) throws Exception {
+        for (BeanPostProcessor beanPostProcessor : beanPostProcessors) {
+            bean = beanPostProcessor.postProcessBeforeInitialization(bean, name);
+        }
+
+        // TODO:call initialize method
+        for (BeanPostProcessor beanPostProcessor : beanPostProcessors) {
+            bean = beanPostProcessor.postProcessAfterInitialization(bean, name);
+        }
+        return bean;
+    }
+
+    public void addBeanPostProcessor(BeanPostProcessor beanPostProcessor) throws Exception {
+        this.beanPostProcessors.add(beanPostProcessor);
+    }
+
+    public List getBeansForType(Class type) throws Exception {
+        List beans = new ArrayList<Object>();
+        for (String beanDefinitionName : beanDefinitionNames) {
+            if (type.isAssignableFrom(beanDefinitionMap.get(beanDefinitionName).getBeanClass())) {
+                beans.add(getBean(beanDefinitionName));
+            }
+        }
+        return beans;
+    }
+
+    protected abstract void applyProperty(Object bean, BeanDefinition beanDefinition) throws Exception;
+
 }

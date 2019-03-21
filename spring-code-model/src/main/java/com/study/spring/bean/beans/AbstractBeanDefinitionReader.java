@@ -1,6 +1,6 @@
 package com.study.spring.bean.beans;
 
-import com.study.spring.bean.beans.io.ResourceLoad;
+import com.study.spring.bean.beans.io.ResourceLoader;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,10 +13,10 @@ import java.util.Map;
  */
 public abstract class AbstractBeanDefinitionReader implements BeandefinitionReader {
     private Map<String, BeanDefinition> registry;
-    private ResourceLoad resourceLoad;
+    private ResourceLoader resourceLoader;
 
-    public AbstractBeanDefinitionReader(ResourceLoad resourceLoad) {
-        this.resourceLoad = resourceLoad;
+    public AbstractBeanDefinitionReader(ResourceLoader resourceLoader) {
+        this.resourceLoader = resourceLoader;
         this.registry = new HashMap<String, BeanDefinition>();
     }
 
@@ -24,7 +24,7 @@ public abstract class AbstractBeanDefinitionReader implements BeandefinitionRead
         return registry;
     }
 
-    public ResourceLoad getResourceLoad() {
-        return resourceLoad;
+    public ResourceLoader getResourceLoader() {
+        return resourceLoader;
     }
 }

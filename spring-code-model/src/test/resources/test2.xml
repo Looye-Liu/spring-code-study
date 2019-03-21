@@ -8,14 +8,16 @@
 	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
 
-    <bean id="helloWorldService" class="com.study.spring.test.HelloWorldServiceImpl">
-        <property name="text" value="Hello World!"></property>
-        <property name="refrenceService" ref="refHelloWorldService"></property>
+    <bean id="outputService" class="com.study.spring.test.HelloRefrenceService">
+        <property name="helloWorldService" ref="helloWorldService"></property>
     </bean>
 
-    <bean id="refHelloWorldService" class="com.study.spring.test.HelloRefrenceService">
-        <property name="refrence" value="Refrence Hello World!"></property>
-        <property name="helloWorldService" ref="helloWorldService"></property>
+    <bean id="helloWorldService" class="com.study.spring.test.HelloWorldServiceImpl">
+        <property name="text" value="Hello World!"></property>
+        <property name="refrenceService" ref="outputService"></property>
+    </bean>
+
+    <bean id="beanInitializeLogger" class="com.study.spring.test.beans.BeanInitializeLogger">
     </bean>
 
 </beans>

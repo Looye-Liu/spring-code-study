@@ -8,7 +8,7 @@ import java.net.URL;
  * @author looye
  * @date 2019/3/6
  */
-public class ResourceLoad {
+public class ResourceLoader {
     public Resource getResource(String location) {
         URL url = this.getClass().getClassLoader().getResource(location);
         return new UrlResource(url);
