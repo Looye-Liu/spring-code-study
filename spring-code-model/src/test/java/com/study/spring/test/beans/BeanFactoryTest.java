@@ -3,12 +3,10 @@ package com.study.spring.test.beans;
 import com.study.spring.bean.beans.BeanDefinition;
 import com.study.spring.bean.beans.PropertyValue;
 import com.study.spring.bean.beans.PropertyValues;
-
 import com.study.spring.bean.beans.factory.AbstractBeanFactory;
 import com.study.spring.bean.beans.factory.AutowireCapableBeanFactory;
 import com.study.spring.bean.beans.io.ResourceLoader;
 import com.study.spring.bean.beans.xml.XmlBeanDefinitionReader;
-import com.study.spring.test.HelloRefrenceService;
 import com.study.spring.test.HelloWorldService;
 import org.junit.Test;
 
@@ -74,7 +72,5 @@ public class BeanFactoryTest {
         HelloWorldService helloWorldService = (HelloWorldService) beanFactory.getBean("helloWorldService");
         helloWorldService.helloWorld();
 
-        HelloRefrenceService refrenceService = (HelloRefrenceService) beanFactory.getBean("refHelloWorldService");
-        refrenceService.printHello();
     }
 }

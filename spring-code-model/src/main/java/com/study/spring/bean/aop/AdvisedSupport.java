@@ -11,6 +11,16 @@ import org.aopalliance.intercept.MethodInterceptor;
 public class AdvisedSupport {
     private TargetSource targetSource;
     private MethodInterceptor methodInterceptor;
+    private MethodMatcher methodMatcher;
+
+    public MethodMatcher getMethodMatcher() {
+        return methodMatcher;
+    }
+
+    public AdvisedSupport setMethodMatcher(MethodMatcher methodMatcher) {
+        this.methodMatcher = methodMatcher;
+        return this;
+    }
 
     public TargetSource getTargetSource() {
         return targetSource;
