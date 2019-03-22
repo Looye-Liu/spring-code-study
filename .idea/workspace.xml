@@ -2,31 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b72bf0-1ceb-4456-9ebd-9a55abab8e37" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AbstractAopProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/Advisor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AspectJAroundAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AspectJAwareAdvisorAutoProxyCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AspectJExpressionPointcutAdvisor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/BeanFactoryAware.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/Cglib2AopProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/PointcutAdvisor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/ProxyFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/OutputService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/OutputServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/Cglib2AopProxyTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/HelloRefrenceService.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/tiny-spring项目UML分析/两种动态代理.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/tiny-spring项目UML分析/从xml中加载bean定义的主要相关类.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/tiny-spring项目UML分析/使用cglib动态代理.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/tiny-spring项目UML分析/使用jdk动态代理.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/tiny-spring项目UML分析/切点通知器相关接口.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/tiny-spring项目UML分析/加载资源的主要相关类.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/tiny-spring项目UML分析/实现ApplicationContext接口的相关类.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/tiny-spring项目UML分析/时序图-普通bean的加载过程.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/tiny-spring项目UML分析/装配bean的主要相关类.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/tiny-spring项目UML分析/通过AspectJ表达式处理AOP的主要类和关系.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/部分aopalliance分析/相关类图.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/一些总结.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/部分aopalliance分析/Advice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/部分aopalliance分析/Interceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/部分aopalliance分析/Invocation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/部分aopalliance分析/Joinpoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/部分aopalliance分析/MethodInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-code-model/src/部分aopalliance分析/MethodInvocation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/pom.xml" afterPath="$PROJECT_DIR$/spring-code-model/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/spring-code-model.iml" afterPath="$PROJECT_DIR$/spring-code-model/spring-code-model.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AdvisedSupport.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AdvisedSupport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/ReflectiveMethodInvocation.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/ReflectiveMethodInvocation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/TargetSource.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/TargetSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AutowireCapableBeanFactory.java" afterPath="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AutowireCapableBeanFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/HelloWorldServiceImpl.java" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/HelloWorldServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/JdkDynamicAopProxyTest.java" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/JdkDynamicAopProxyTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/BeanFactoryTest.java" afterPath="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/beans/BeanFactoryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-code-model/src/test/resources/test1.xml" afterPath="$PROJECT_DIR$/spring-code-model/src/test/resources/test1.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-code-model/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +34,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JdkDynamicAopProxyTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JdkDynamicAopProxyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/JdkDynamicAopProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -49,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cglib2AopProxyTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cglib2AopProxyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/Cglib2AopProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -61,10 +56,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="一些总结.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-code-model/src/一些总结.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AutowireCapableBeanFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AutowireCapableBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
+            <state relative-caret-position="630">
               <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
@@ -100,7 +121,7 @@
       <file leaf-file-name="AbstractBeanFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="300">
               <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding>
                 <element signature="e#448#472#0" expanded="true" />
@@ -114,18 +135,8 @@
       <file leaf-file-name="AspectJAwareAdvisorAutoProxyCreator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AspectJAwareAdvisorAutoProxyCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="585">
               <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorldServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/HelloWorldServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,7 +145,7 @@
       <file leaf-file-name="BeanDefinition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/BeanDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="600">
               <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
                 <element signature="e#325#326#0" expanded="true" />
@@ -178,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/ApplicationTest.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/AopTest.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/PropertyValues.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/Testa.java" />
@@ -229,6 +239,7 @@
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/TargetSource.java" />
         <option value="$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/Cglib2AopProxyTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -270,9 +281,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="918" />
-    <option name="height" value="1002" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -311,164 +321,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-code-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="spring-code-study" />
@@ -481,9 +338,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,6 +348,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33103448" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -501,6 +356,8 @@
       <recent name="com.study.spring.bean.aop" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/spring-code-model/src" />
       <recent name="$PROJECT_DIR$/spring-code-model/src/test/resources" />
       <recent name="$PROJECT_DIR$/spring-code-model/src/test" />
       <recent name="$PROJECT_DIR$/spring-code-model/src/main/resources" />
@@ -1061,7 +918,8 @@
       <workItem from="1552896416616" duration="5047000" />
       <workItem from="1552996653418" duration="196000" />
       <workItem from="1553048265254" duration="1945000" />
-      <workItem from="1553135568943" duration="24057000" />
+      <workItem from="1553135568943" duration="24096000" />
+      <workItem from="1553245376979" duration="554000" />
     </task>
     <servers />
   </component>
@@ -1069,8 +927,8 @@
     <history-entry file="Cglib2AopProxyTest_test - 2019.03.22 at 16h 51m 51s.xml">
       <configuration name="Cglib2AopProxyTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdkDynamicAopProxyTest_testInterceptor - 2019.03.22 at 16h 14m 58s.xml">
-      <configuration name="JdkDynamicAopProxyTest.testInterceptor" configurationId="JUnit" />
+    <history-entry file="Cglib2AopProxyTest_test - 2019.03.22 at 16h 52m 00s.xml">
+      <configuration name="Cglib2AopProxyTest.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JdkDynamicAopProxyTest_testInterceptor - 2019.03.22 at 16h 16m 29s.xml">
       <configuration name="JdkDynamicAopProxyTest.testInterceptor" configurationId="JUnit" />
@@ -1098,39 +956,38 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53999000" />
+    <option name="totallyTimeSpent" value="54592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="918" height="1002" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905138" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39364034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39364034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24110672" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24110672" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36190477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36155483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2964427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973544" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28070176" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905138" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2964427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1176,30 +1033,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/JdkDynamicAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/org/aopalliance/intercept/MethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/PointcutAdvisor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="YarmPluginDependencyUpdater">
@@ -1221,7 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,7 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,7 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,7 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,9 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="e#410#411#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,7 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,7 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,7 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,7 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,12 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#235#236#0" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#328#329#0" expanded="false" />
-            <element signature="e#378#379#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1332,10 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,7 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,7 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,9 +1169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="24" column="99" lean-forward="false" selection-start-line="24" selection-start-column="99" selection-end-line="24" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1392,9 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#759#760#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1402,9 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#303#304#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1412,7 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1420,11 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-          <folding>
-            <element signature="e#4086#4087#0" expanded="false" />
-            <element signature="e#7712#7713#0" expanded="false" />
-            <element signature="e#7756#7757#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1432,7 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1440,23 +1234,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="2131" column="0" lean-forward="false" selection-start-line="2131" selection-start-column="0" selection-end-line="2131" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/HelloRefrenceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/HelloRefrenceService.java" />
     <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/HelloWorldService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1464,7 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1472,7 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1480,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="73" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1488,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1496,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1504,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1522,7 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="84" lean-forward="false" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,11 +1316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1556,7 +1329,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/BeanDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="600">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="e#325#326#0" expanded="true" />
@@ -1594,7 +1367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AutowireCapableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
+        <state relative-caret-position="630">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
@@ -1602,7 +1375,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/aop/AspectJAwareAdvisorAutoProxyCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="585">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
@@ -1610,21 +1383,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-code-model/src/main/java/com/study/spring/bean/beans/factory/AbstractBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="300">
           <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
           <folding>
             <element signature="e#448#472#0" expanded="true" />
             <element signature="e#534#542#0" expanded="true" />
             <element signature="e#617#636#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/JdkDynamicAopProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1643,6 +1408,36 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/一些总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-model/src/test/java/com/study/spring/test/aop/JdkDynamicAopProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
