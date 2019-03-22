@@ -8,7 +8,7 @@ package com.study.spring.test;
  */
 public class HelloWorldServiceImpl implements HelloWorldService {
 
-    private HelloRefrenceService refrenceService;
+    private OutputService outputService;
 
     private String text;
 
@@ -30,12 +30,12 @@ public class HelloWorldServiceImpl implements HelloWorldService {
         System.out.println(this.text);
     }
 
-    public HelloRefrenceService getRefrenceService() {
-        return refrenceService;
+    public OutputService getOutputService() {
+        return outputService;
     }
 
-    public HelloWorldServiceImpl setRefrenceService(HelloRefrenceService refrenceService) {
-        this.refrenceService = refrenceService;
+    public HelloWorldServiceImpl setOutputService(OutputService outputService) {
+        this.outputService = outputService;
         return this;
     }
 }

@@ -7,12 +7,19 @@ package com.study.spring.bean.aop;
  * @date 2019/3/18
  */
 public class TargetSource {
-    public Object target;
-    public Class targetClass;
+    private Object target;
+    private Class<?> targetClass;
+    private Class<?>[] interfaces;
 
     public TargetSource(Object target, Class targetClass) {
         this.target = target;
         this.targetClass = targetClass;
+    }
+
+    public TargetSource(Object target, Class<?> targetClass, Class<?>... interfaces) {
+        this.target = target;
+        this.targetClass = targetClass;
+        this.interfaces = interfaces;
     }
 
     public Object getTarget() {
@@ -23,4 +30,7 @@ public class TargetSource {
         return targetClass;
     }
 
+    public Class<?>[] getInterfaces() {
+        return interfaces;
+    }
 }
