@@ -8,7 +8,7 @@ package com.study.spring.bean.beans;
  */
 public class BeanDefinition {
     private Object bean;
-    private String beanName;
+    private String beanClassName;
     private Class beanClass;
     private PropertyValues propertyValues = new PropertyValues();
 
@@ -20,14 +20,14 @@ public class BeanDefinition {
         this.bean = bean;
     }
 
-    public String getBeanName() {
-        return beanName;
+    public String getBeanClassName() {
+        return beanClassName;
     }
 
-    public void setBeanName(String beanName) {
-        this.beanName = beanName;
+    public void setBeanClassName(String beanClassName) {
+        this.beanClassName = beanClassName;
         try {
-            this.beanClass = Class.forName(beanName);
+            this.beanClass = Class.forName(beanClassName);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

@@ -23,7 +23,7 @@ public class BeanFactoryTest {
     public void test1() throws Exception {
 
         BeanDefinition beanDefinition = new BeanDefinition();
-        beanDefinition.setBeanName("com.study.spring.test.HelloWorldServiceImpl");
+        beanDefinition.setBeanClassName("com.study.spring.test.HelloWorldServiceImpl");
 
         PropertyValues propertyValues = new PropertyValues();
         propertyValues.getPropertyValueList().add(new PropertyValue("text", "哇哈哈"));
